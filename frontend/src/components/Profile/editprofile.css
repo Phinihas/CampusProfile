@@ -1,0 +1,44 @@
+.wrapper {
+  height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.editProfile {
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+  font-size: 16px;
+}
+
+.btn {
+  font-size: 16px;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .editProfile {
+    padding: 20px;
+  }
+
+  .form-control,
+  .btn,
+  .form-label {
+    font-size: 14px;
+  }
+}

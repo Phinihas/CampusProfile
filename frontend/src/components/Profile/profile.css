@@ -1,0 +1,95 @@
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: #262626;
+    padding-bottom: 3rem;
+  }
+  
+  .card {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px lightgray;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .pphoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-btn {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  
+    .pphoto {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .card-title {
+      font-size: 1.5em;
+    }
+  
+    .card-text {
+      font-size: 1em;
+    }
+  
+    button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .col-md-3, .col-md-5, .col-md-4 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .card-title {
+      font-size: 1.3em;
+    }
+  }
+  

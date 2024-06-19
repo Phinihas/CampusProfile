@@ -1,0 +1,104 @@
+/* Base styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.homebody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  color: #333;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.welcome-section {
+  margin-bottom: 30px;
+  animation: slideIn 1.5s ease-out;
+}
+
+.h11 {
+  font-size: 3rem;
+  margin: 10px 0;
+  color: #2c3e50;
+  font-family: 'Poppins', sans-serif;
+  animation: scaleUp 1s ease-in-out;
+}
+
+.welcome {
+  font-size: 1.5rem;
+  color: #34495e;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: #7f8c8d;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: #3498db;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 600px) {
+  .h11 {
+    font-size: 2.5rem;
+  }
+  .intro-text {
+    font-size: 1rem;
+  }
+  .btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}

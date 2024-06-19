@@ -1,0 +1,13 @@
+.table-full-width tbody tr td {
+    width: 100%;
+  }
+  .highlight-description {
+    border: 1px solid blue;
+    padding: 10px;
+  }
+  .btnsize {
+    font-size: 0.8rem;
+    padding: 4px 8px;
+  }
+
+  
