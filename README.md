@@ -1,1 +1,1 @@
-![profile page](/pictures/a)
+![profile page](/pictures/a.png)
