@@ -2,6 +2,7 @@ const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const express = require("express");
 const app = express();
+const port= process.env.PORT || 4000;
 const cors = require("cors");
 const authenticate = require("./middleware/authenticate");
 const path = require("path");
