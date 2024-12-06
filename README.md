@@ -28,3 +28,16 @@ Users can Search Communities by using tags in this page
 This page shows saved posts of users
 ![image](https://github.com/user-attachments/assets/7416900f-48db-4e0d-b5fe-b72e1166932e)
 
+
+## 👥 Contact
+
+- Name: Phinihas
+- Email: phinihasgandi@gmail.com
+- Phone: +91 7995802047
+- Location: Kakinada, Andhra Pradesh, India
+
+## 📱 Social Media
+
+- Instagram: https://www.instagram.com/phinihasgandi/
+- Twitter: https://x.com/GandiPhinihas
+
